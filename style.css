@@ -2,3 +2,135 @@
   float: right;
   margin-right: 10%;
 }
+
+.my-header {
+  height: 20%;
+}
+
+.spacing {
+  padding-top: 30px;
+  padding-left: 70px;
+}
+
+
+.message {
+  align-content: center;
+}
+
+.message-me {
+  margin-bottom: 30px;
+}
+
+.project-pic {
+  overflow: auto;
+}
+
+
+.content{
+  margin: 0;
+}
+
+.left {
+  float: left;
+  width: 75%
+  overflow: hidden;
+}
+
+.right {
+float: right;
+width: 25%
+overflow: hidden;
+}
+
+
+.left-project {
+  float: left;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.right-project {
+  float: right;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.html {
+  background-image: url("images/html.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 5px;
+}
+.css {
+  background-image: url("images/css.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 5px;
+
+}
+.js {
+  background-image: url("images/js.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 5px;
+
+}
+.ruby {
+  background-image: url("images/ruby.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 5px;
+
+}
+
+.bootstrap {
+  background-image: url("images/bootstrap.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 5px;
+
+}
+.sql {
+  background-image: url("images/sql.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 5px;
+
+}
+
+
+
+@media screen and (max-width:400px){
+  .middle {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
